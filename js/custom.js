@@ -4,7 +4,7 @@ const swiper1 = new Swiper('.swiper1', {
     longSwipes: false,
     loop: true,
     centeredSlides: true,
-    speed: 1000,
+    speed: 1500,
     spaceBetween: -80,
     effect: 'coverflow',
     direction: 'horizontal',
@@ -14,7 +14,7 @@ const swiper1 = new Swiper('.swiper1', {
     },
     breakpoints: {
         // when window width is >= 376px
-        376: {
+        372: {
             slidesPerView: 1.5,
             spaceBetween: -120
         },
@@ -31,7 +31,7 @@ const swiper1 = new Swiper('.swiper1', {
         // when window width is >= 1278px
         1278: {
             slidesPerView: 3,
-            spaceBetween: -450
+            spaceBetween: -200
         }
     }
 });
@@ -51,7 +51,7 @@ const swiper2 = new Swiper('.swiperNum2', {
     },
     breakpoints: {
         // when window width is >= 376px
-        376: {
+        372: {
             slidesPerView: 1.5,
             spaceBetween: -120
         },
@@ -68,7 +68,7 @@ const swiper2 = new Swiper('.swiperNum2', {
         // when window width is >= 1278px
         1278: {
             slidesPerView: 3,
-            spaceBetween: -450
+            spaceBetween: -200
         }
     }
 });

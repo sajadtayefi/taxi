@@ -6,6 +6,7 @@ html {
 .taxi-body {
   font-family: sans-serif;
   direction: rtl;
+  overflow-x: hidden;
 }
 
 .taxi-section1 {
@@ -77,8 +78,6 @@ html {
 
 .taxi-image2 {
   align-self: center;
-  margin: 20px;
-
 }
 
 .taxi-div-1 {
@@ -193,10 +192,9 @@ html {
 
 .swiper-slide-next,
 .swiper-slide-prev {
-  
   opacity: 0.5;
   z-index: 9 !important;
-  transform: scale(0.9) !important;
+  transform: scale(0.8) !important;
   visibility: visible !important;
 }
 
@@ -210,27 +208,39 @@ html {
 
 .swiper-button-prev1,
 .swiper-button-prev2 {
-  transform: translate(22%, -700%);
+  transform: translate(26%, -700%);
   z-index: 999;
+  
 }
 
 .swiper-button-next1,
 .swiper-button-next2 {
-  transform: translate(-22%, -800%);
+  transform: translate(-26%, -800%);
   z-index: 999;
 }
 
 /* Media queries */
 
-@media (max-width: 375px) {
+@media (max-width: 373px) {
   .swiper-button-prev1,
   .swiper-button-prev2 {
-    transform: translate(30%, -400%);
+    transform: translate(30%, -100%);
   }
 
   .swiper-button-next1,
   .swiper-button-next2 {
-    transform: translate(-30%, -400%);
+    transform: translate(-30%, -100%);
   }
 }
-
+@media (max-width:373px){
+  
+}
+.taxi-flag-btn{
+width: 30px;
+height: 30px;
+align-self: center;
+}
+.taxi-image3{
+  height: 400px;
+  width: 1100px;
+}
